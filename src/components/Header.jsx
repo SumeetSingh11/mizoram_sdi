@@ -9,18 +9,19 @@ const Header = () => {
         <div className="container header-content">
           <div className="logo-section">
             <img
-              src="https://marsac.mn.gov.in/img/logo/marsac.png"
-              alt="MARSAC Logo"
+              src="https://mirsac.mizoram.gov.in/wp-content/uploads/2024/05/mirsac-213x300.png"
+              alt="MIRSAC Logo"
               className="main-logo"
             />
             <div className="title-section">
-              <h1>Manipur State Spatial Data Infrastructure (MSSDI)</h1>
-              <p>(An initiative under the Department of Science and Technology, Manipur Remote Sensing Applications Centre, Govt. of Manipur)</p>
+              <h1>Mizoram State Spatial Data Infrastructure (MSSDI)</h1>
+              (An initiative under the Department of Science & Technology) <br />
+              Mizoram Remote Sensing Application Centre, Government of Mizoram
             </div>
           </div>
           <div className="emblem-section">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Kanglasa.svg/330px-Kanglasa.svg.png"
+              src="https://nlcbharat.org/wp-content/uploads/2024/02/Mizoram.png"
               alt="India Emblem"
               className="emblem"
             />
@@ -34,7 +35,7 @@ const Header = () => {
             <li><a href="#home" className="active">Home</a></li>
             <li><a href="#data-explorer">Data Explorer</a></li>
             <li><a href="#geoportal">Geoportal</a></li>
-            <li><a href="#3d-view">3D Manipur</a></li>
+            <li><a href="#3d-view">3D Mizoram</a></li>
             <li><a href="#admin">Admin Portal</a></li>
             <li className="dropdown">
               <a href="#help">Help <HelpCircle size={16} /></a>

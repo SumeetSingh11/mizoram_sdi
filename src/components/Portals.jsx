@@ -6,13 +6,13 @@ const Portals = () => {
     const portals = [
         {
             title: 'Data Explorer',
-            desc: 'Analyze and visualize high-resolution spatial datasets across Manipur with advanced layers.',
+            desc: 'Analyze and visualize high-resolution spatial datasets across Mizoram with advanced layers.',
             icon: <Map size={32} />,
             color: '#3b82f6',
         },
         {
-            title: '3D Manipur',
-            desc: 'Experience a digital twin of Manipur with immersive 3D terrain and urban modeling.',
+            title: '3D Mizoram ',
+            desc: 'Experience a digital twin of Mizoram with immersive 3D terrain and urban modeling.',
             icon: <Box size={32} />,
             color: '#10b981',
         },

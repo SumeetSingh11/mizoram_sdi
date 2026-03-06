@@ -19,7 +19,7 @@ const Hero = () => {
                     </div>
                     <h2 className="title">Spatial Insights for a <span className="highlight">Sustainable Future</span></h2>
                     <p className="description">
-                        Leading Manipur into the era of spatial intelligence. We provide high-precision remote sensing data and GIS solutions for governance, environment, and development.
+                        Leading Mizoram into the era of spatial intelligence. We provide high-precision remote sensing data and GIS solutions for governance, environment, and development.
                     </p>
 
                     <div className="hero-btns">
@@ -42,7 +42,7 @@ const Hero = () => {
                         </div>
                         <div className="q-stat">
                             <MapPin size={20} className="icon" />
-                            <span>16 Districts Covered</span>
+                            <span>11 Districts Covered</span>
                         </div>
                     </div>
                 </div>

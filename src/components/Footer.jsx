@@ -8,12 +8,12 @@ const Footer = () => {
             <div className="container footer-grid">
                 <div className="footer-brand">
                     <img
-                        src="https://marsac.mn.gov.in/img/logo/marsac.png"
-                        alt="MARSAC Logo"
+                        src="https://mirsac.mizoram.gov.in/wp-content/uploads/2024/05/mirsac-213x300.png"
+                        alt="MIRSAC Logo"
                         className="footer-logo"
                     />
-                    <h3>MARSAC</h3>
-                    <p>Innovating with spatial science for the progress of Manipur. Transforming data into actionable insights since inception.</p>
+                    <h3>MIRSAC</h3>
+                    <p>Innovating with spatial science for the progress of Mizoram. Transforming data into actionable insights since inception.</p>
                     <div className="social-links">
                         <a href="#"><Facebook size={20} /></a>
                         <a href="#"><Twitter size={20} /></a>
@@ -35,7 +35,7 @@ const Footer = () => {
                 <div className="footer-links">
                     <h4>Government Portals</h4>
                     <ul>
-                        <li><a href="#">Manipur State Portal <ExternalLink size={14} /></a></li>
+                        <li><a href="#">Mizoram State Portal <ExternalLink size={14} /></a></li>
                         <li><a href="#">Bhuvan - ISRO <ExternalLink size={14} /></a></li>
                         <li><a href="#">Digital India <ExternalLink size={14} /></a></li>
                         <li><a href="#">MeitY <ExternalLink size={14} /></a></li>
@@ -47,15 +47,15 @@ const Footer = () => {
                     <ul className="contact-list">
                         <li>
                             <MapPin size={20} className="icon" />
-                            <span>MARSAC Complex, Near High Court, North A.O.C, Imphal, Manipur - 795001</span>
+                            <span>Secretariat Complex Tlangzawl, New, New Capital Complex Rd, Khatla, Aizawl, Mizoram 796001</span>
                         </li>
                         <li>
                             <Phone size={20} className="icon" />
-                            <span>+91-385-2422115</span>
+                            <span>+91-389-2315002</span>
                         </li>
                         <li>
                             <Mail size={20} className="icon" />
-                            <span>dir-marsac-mn@gov.in</span>
+                            <span>mirsac-mz@gov.in</span>
                         </li>
                     </ul>
                 </div>
@@ -63,7 +63,7 @@ const Footer = () => {
 
             <div className="footer-bottom">
                 <div className="container bottom-content">
-                    <p>&copy; 2026 Manipur Remote Sensing Applications Centre (MARSAC). All Rights Reserved.</p>
+                    <p>&copy; 2026 Mizoram Remote Sensing Application Centre, Science & Technology (MIRSAC). All Rights Reserved.</p>
                     <div className="bottom-links">
                         <a href="#">Privacy Policy</a>
                         <a href="#">Terms of Service</a>

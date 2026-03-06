@@ -1,16 +1,29 @@
-# React + Vite
+# Mizoram State Spatial Data Infrastructure (MSSDI)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Mizoram State Spatial Data Infrastructure (MSSDI) is a comprehensive GIS-based portal developed by the Mizoram Remote Sensing Application Centre (MIRSAC), under the Department of Science & Technology, Government of Mizoram.
 
-Currently, two official plugins are available:
+## Features
+- **Data Explorer**: Access over 300+ spatial layers for Mizoram.
+- **Geoportal**: Centralized hub for geographic information.
+- **3D Mizoram**: Interactive 3D visualization of the state's terrain.
+- **Admin Portal**: Restricted access for managing spatial data.
+- **News & Events**: Stay updated with MIRSAC's activities and regional GIS developments.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend**: React 19, Vite
+- **Styling**: Vanilla CSS
+- **Icons**: Lucide React
+- **Animations**: Custom scroll reveal animations
 
-## React Compiler
+## Development
+To run the project locally:
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment
+The project is configured for GitHub Pages. To deploy:
+```bash
+npm run deploy
+```
